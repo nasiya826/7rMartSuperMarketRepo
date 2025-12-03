@@ -19,14 +19,14 @@ public class AdminReset {
     	 // call parent constructor
         this.driver=driver;
         PageFactory.initElements(driver, this);
-		// TODO Auto-generated constructor stub
+		// to initialize the web elements
 	}
 
 	@FindBy (xpath = "//i[@class='ace-icon fa fa-sync-alt']")WebElement admin_reset;
    
     
     
-
+//used chaines to connect the methodes
 	public AdminReset adminResetClick() {
 		admin_reset.click();
 	  	   return this;

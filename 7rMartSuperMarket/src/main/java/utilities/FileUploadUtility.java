@@ -14,9 +14,11 @@ public void robotMethodeForFileUpload(WebElement element,String path) throws AWT
 	StringSelection selection=new StringSelection(path);
 	Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
 	Robot robot=new Robot();
+	//used to automate file upload
 	robot.delay(2000);
 	robot.keyPress(KeyEvent.VK_CONTROL);
 	robot.keyPress(KeyEvent.VK_V);
+	//Key presses must always be released; otherwise, the system thinks the key is still pressed.
 	robot.keyRelease(KeyEvent.VK_CONTROL);
 	robot.keyRelease(KeyEvent.VK_V);
 	robot.keyPress(KeyEvent.VK_ENTER);

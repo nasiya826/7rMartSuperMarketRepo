@@ -10,7 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 
-public class ScreenShotUtility {
+public class ScreenShotUtility {//capturs driver current situation 
 	public void captureFailureScreenShot(WebDriver driver, String name) throws IOException {
 		// Interface & method for Capture Screenshot
 		TakesScreenshot scrShot = (TakesScreenshot) driver;

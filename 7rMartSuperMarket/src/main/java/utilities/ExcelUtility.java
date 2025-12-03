@@ -11,6 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import constants.Constant;
 
 public class ExcelUtility {
+	//read data from an Excel (.xlsx)
 	static FileInputStream f;
 			static XSSFWorkbook w;
 			static XSSFSheet sh;

@@ -3,6 +3,7 @@ package utilities;
 import com.github.javafaker.Faker;
 
 public class FakerUtility {
+	//used to generate faker data from faker classes
 
     Faker fakerobj = new Faker();
 
@@ -22,3 +23,4 @@ public class FakerUtility {
         return fakerobj.name().username();
     }
 }
+    
