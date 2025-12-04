@@ -1,10 +1,11 @@
 package testscript;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-
+import constants.Constant;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.ManageCategorySearch;
@@ -25,8 +26,8 @@ public class ManageCategorySearchTest extends Base{
 		home = loginObj.btn_signin();
 		categories=home.manageSearchCategory();
 		categories.searchCategoryBtn().enterCategory(category).searchCategory();
-		/*boolean categoryIsSaved=categories.isCategoryFound();
-		  Assert.assertTrue(categoryIsSaved,Constant.SEARCHISSUCCEFUL);*/
+		boolean categoryIsSaved=categories.isCategoryFound();
+		  Assert.assertTrue(categoryIsSaved,Constant.SEARCHISSUCCEFUL);
 		
 	}
 

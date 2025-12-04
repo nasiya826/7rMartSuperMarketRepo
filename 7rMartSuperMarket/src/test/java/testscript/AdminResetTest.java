@@ -1,6 +1,10 @@
 package testscript;
 
 import org.testng.annotations.Test;
+
+import constants.Constant;
+
+import org.testng.Assert;
 import org.testng.annotations.Parameters;
 
 import pages.AdminReset;
@@ -19,5 +23,7 @@ public class AdminResetTest extends Base {
         home = loginObj.btn_signin();
         reset = home.adminReset();
         reset.adminResetClick();
+        boolean isFoundSaved=reset.isResetDone();
+		  Assert.assertTrue(isFoundSaved,Constant.SEARCHISSUCCEFUL);
     }
 }

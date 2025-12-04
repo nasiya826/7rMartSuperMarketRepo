@@ -23,7 +23,8 @@ public class AdminReset {
 	}
 
 	@FindBy (xpath = "//i[@class='ace-icon fa fa-sync-alt']")WebElement admin_reset;
-   
+	@FindBy(xpath="//div[@class='col-sm-6']")WebElement is_admin_reset;
+	
     
     
 //used chaines to connect the methodes
@@ -31,5 +32,15 @@ public class AdminReset {
 		admin_reset.click();
 	  	   return this;
 	     }
+	
+	public boolean isResetDone() {
+		return is_admin_reset.isDisplayed();
+	    
+	}
+	}
+
+
+
+	
     
-}
+

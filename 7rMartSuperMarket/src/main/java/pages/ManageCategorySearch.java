@@ -23,9 +23,9 @@ public class ManageCategorySearch {
 	    @FindBy(xpath = "//button[@class='btn btn-danger btn-fix']")WebElement search_btn;
 	    @FindBy(xpath="//span[@id='res']")WebElement categorysearch_errormessage;
 	    
-	    /*public boolean isCategoryFound() {
+	   public boolean isCategoryFound() {
 			return categorysearch_errormessage.isDisplayed();
-	    }*/
+	    }
 	    public ManageCategorySearch searchCategoryBtn() {
 	    	category_search_click.click();
 	 	   return this;
