@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import constants.Constant;
 import utilities.PageUtility;
 
 public class AdminUserSearch {
@@ -40,9 +41,10 @@ public class AdminUserSearch {
 	    public AdminUserSearch userSearchDropDown() {
 	 	  // Select select=new Select(user_Type);
 	 		//select.selectByVisibleText("Admin");
-	 		pageUtilityObj.selectByVisibleText(admin_usertype,"Admin");
-	 		return this;
+	    	pageUtilityObj.selectByVisibleText(admin_usertype, Constant.USER_TYPE);
+	        return this;
 	    }
+	    
 	    public AdminUserSearch userSaveBtn() {
 	    	user_serchbtn.click();
 	    	return this;

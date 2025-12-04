@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import constants.Constant;
 import utilities.PageUtility;
 
 public class AdminUserPage {
@@ -41,12 +42,17 @@ public class AdminUserPage {
  	   new_password.sendKeys(new_Password);
  	   return this;
     }
-    public AdminUserPage newUserDropDown() {
+    /*public AdminUserPage newUserDropDown() {
  	  // Select select=new Select(user_Type);
  		//select.selectByVisibleText("Admin");
  		pageUtilityObj.selectByVisibleText(user_Type,"Admin");
  		return this;
+    }*/
+    public AdminUserPage newUserDropDown() {
+        pageUtilityObj.selectByVisibleText(user_Type, Constant.USER_TYPE);
+        return this;
     }
+
     public AdminUserPage newUserSaveBtn() {
     	user_save_btn.click();
     	return this;

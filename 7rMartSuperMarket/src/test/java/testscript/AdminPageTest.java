@@ -24,7 +24,7 @@ public class AdminPageTest extends Base {
 		admin=home.adminMore();
 		admin.adminClick().newUserAdmin(fake.getUserName(), fake.getPassword()).newUserDropDown().newUserSaveBtn();
 		boolean adminIsSaved=admin.isAdminSaved();
-		  Assert.assertTrue(adminIsSaved,Constant.MAINERRORMESSEGE);
+		  Assert.assertTrue(adminIsSaved,Constant.MAINERRORMESSAGE);
 
 		/*
 	 	loginObj.btn_signin();

@@ -30,7 +30,7 @@ public class ManageCategoryTest extends Base{
 			     .enterNewCategory(new_category)
 			     .newCategorySelectGroup().newCategoryImageUpload().saveCategoryBtn();
 				boolean categoryIsSaved=category.isCategorySaved();
-				  Assert.assertTrue(categoryIsSaved,Constant.MAINERRORMESSEGE);
+				  Assert.assertTrue(categoryIsSaved,Constant.MAINERRORMESSAGE);
 				
 			}
 		}

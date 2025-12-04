@@ -28,7 +28,7 @@ public class ManageNewsTest extends Base {
 		     .newNews(new_News)
 		     .newNewsSaveClick();
 			boolean newsIsSaved=news.isNewsSaved();
-			  Assert.assertTrue(newsIsSaved,Constant.MAINERRORMESSEGE);
+			  Assert.assertTrue(newsIsSaved,Constant.MAINERRORMESSAGE);
 
 			
 		}

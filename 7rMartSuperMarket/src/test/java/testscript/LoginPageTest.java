@@ -21,7 +21,7 @@ public class LoginPageTest extends Base{
 	  login.userNameAndPassword(username,password);
 	  home=login.btn_signin();
 	  boolean dashboardDisplayed=login.isDashboardDisplayed();
-	  Assert.assertTrue(dashboardDisplayed,Constant.ERRORMESSEGE);
+	  Assert.assertTrue(dashboardDisplayed,Constant.ERRORMESSAGE);
   }                      //true,             false message from Constant class
   
 	  @Test
