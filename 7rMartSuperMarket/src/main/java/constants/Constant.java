@@ -2,7 +2,7 @@ package constants;
 
 public class Constant {
 
-    // Used to store application-wide constant values  
+    // Used to store hardcode constant values  
 
     public static final String ERRORMESSAGE = "Dashboard is not displayed";
     public static final String MAINERRORMESSAGE = "ERROR Occurred";
