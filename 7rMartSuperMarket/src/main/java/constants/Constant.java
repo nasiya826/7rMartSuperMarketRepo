@@ -6,7 +6,7 @@ public class Constant {
 
     public static final String ERRORMESSAGE = "Dashboard is not displayed";
     public static final String MAINERRORMESSAGE = "ERROR Occurred";
-    public static final String FILEPATH = System.getProperty("user.dir") + "/src/main/resources/estData.xlsx";
+    public static final String FILEPATH = System.getProperty("user.dir") + "/src/main/resources/testData.xlsx";
 
     public static final String IMAGEPATH = System.getProperty("user.dir") 
             + "/src/main/resources/download (11).jpeg";
