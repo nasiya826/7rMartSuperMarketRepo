@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-04T17:26:40 IST" name="Suite" finished-at="2025-12-04T17:26:43 IST" duration-ms="3444">
+  <suite started-at="2025-12-08T19:48:49 IST" name="Suite" finished-at="2025-12-08T19:48:53 IST" duration-ms="4245">
     <groups>
     </groups>
-    <test started-at="2025-12-04T17:26:40 IST" name="parameter" finished-at="2025-12-04T17:26:43 IST" duration-ms="3444">
-      <class name="testscript.AdminResetTest">
-        <test-method is-config="true" signature="beforMethod(java.lang.String)[pri:0, instance:testscript.AdminResetTest@48f2bd5b]" started-at="2025-12-04T17:26:40 IST" name="beforMethod" finished-at="2025-12-04T17:26:42 IST" duration-ms="1870" status="PASS">
+    <test started-at="2025-12-08T19:48:49 IST" name="parameter" finished-at="2025-12-08T19:48:53 IST" duration-ms="4245">
+      <class name="testscript.AdminUserSearchTest">
+        <test-method is-config="true" signature="beforMethod(java.lang.String)[pri:0, instance:testscript.AdminUserSearchTest@48f2bd5b]" started-at="2025-12-08T19:48:49 IST" name="beforMethod" finished-at="2025-12-08T19:48:51 IST" duration-ms="2056" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforMethod -->
-        <test-method signature="newUser(java.lang.String,java.lang.String)[pri:0, instance:testscript.AdminResetTest@48f2bd5b]" started-at="2025-12-04T17:26:42 IST" name="newUser" finished-at="2025-12-04T17:26:43 IST" duration-ms="1284" status="PASS">
+        <test-method signature="userSearch(java.lang.String,java.lang.String)[pri:0, instance:testscript.AdminUserSearchTest@48f2bd5b]" started-at="2025-12-08T19:48:51 IST" name="userSearch" finished-at="2025-12-08T19:48:53 IST" duration-ms="1883" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,19 +33,19 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newUser -->
-        <test-method is-config="true" signature="afterMethode(org.testng.ITestResult)[pri:0, instance:testscript.AdminResetTest@48f2bd5b]" started-at="2025-12-04T17:26:43 IST" name="afterMethode" finished-at="2025-12-04T17:26:43 IST" duration-ms="231" status="PASS">
+        </test-method> <!-- userSearch -->
+        <test-method is-config="true" signature="afterMethode(org.testng.ITestResult)[pri:0, instance:testscript.AdminUserSearchTest@48f2bd5b]" started-at="2025-12-08T19:48:53 IST" name="afterMethode" finished-at="2025-12-08T19:48:53 IST" duration-ms="244" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=newUser status=SUCCESS method=AdminResetTest.newUser(java.lang.String,java.lang.String)[pri:0, instance:testscript.AdminResetTest@48f2bd5b] output={null}]]]>
+                <![CDATA[[TestResult name=userSearch status=SUCCESS method=AdminUserSearchTest.userSearch(java.lang.String,java.lang.String)[pri:0, instance:testscript.AdminUserSearchTest@48f2bd5b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethode -->
-      </class> <!-- testscript.AdminResetTest -->
+      </class> <!-- testscript.AdminUserSearchTest -->
     </test> <!-- parameter -->
   </suite> <!-- Suite -->
 </testng-results>
